@@ -52,3 +52,16 @@ Questions about Cemu's software architecture can also be answered on Discord (or
 
 ## License
 Cemu is licensed under [Mozilla Public License 2.0](/LICENSE.txt). Exempt from this are all files in the dependencies directory for which the licenses of the original code apply as well as some individual files in the src folder, as specified in those file headers respectively.
+
+<!-- station-x-repository-guide:start -->
+
+## Guía de esta copia
+
+### Navegación de esta copia
+[src](./src) contiene el código del emulador y [CMakeLists.txt](./CMakeLists.txt) define la compilación. [vcpkg.json](./vcpkg.json) lista dependencias. [BUILD.md](./BUILD.md) es la referencia para preparar la cadena de herramientas del sistema.
+### Compilar y diagnosticar
+Sigue las instrucciones de [BUILD.md](./BUILD.md) para tu plataforma. Usa un directorio de compilación separado y registra la revisión, el compilador y la plataforma al informar un error de build o ejecución.
+### Desarrollo y contribución
+Consulta [CODING_STYLE.md](./CODING_STYLE.md) antes de enviar cambios. Puedes seguir las correcciones y versiones publicadas desde el proyecto de origen.
+
+<!-- station-x-repository-guide:end -->
